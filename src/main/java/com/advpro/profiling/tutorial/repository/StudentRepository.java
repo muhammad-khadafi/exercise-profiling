@@ -15,4 +15,6 @@ import java.util.List;
 public interface StudentRepository extends JpaRepository<Student, Long> {
     @Query("SELECT s FROM Student s ORDER BY s.gpa DESC")
     List<Student> findNameAndGpaOrderByGpaDesc(Pageable pageable);
+    @Query(value = "SELECT string_agg(name, ', ') AS all_student_names FROM students", nativeQuery = true)
+    String findAllStudentNamesConcatenated();
 }
