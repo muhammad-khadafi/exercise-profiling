@@ -39,17 +39,33 @@ A: ...
 
 ### Conclusion
 
+**JMeter GUI Test Results (Post-Optimization)**
+
+![all-student-name](/docs/img/gui_post_testplan2.jpg)
+*/all-student-name*
+
+![highest-gpa](/docs/img/gui_post_testplan3.jpg)
+*/highest-gpa*
+
 A: ...
 
 ### Attachments
 
 **JMeter GUI Test Results (Pre-Optimization)**
 
-...
+![all-student-name](/docs/img/gui_pre_testplan2.jpg)
+*/all-student-name*
+
+![highest-gpa](/docs/img/gui_pre_testplan3.jpg)
+*/highest-gpa*
 
 **JMeter CLI Test Results (Pre-Optimization)**
 
-...
+![all-student-name](/docs/img/cli_pre_testplan2.jpg)
+*/all-student-name*
+
+![highest-gpa](/docs/img/cli_pre_testplan3.jpg)
+*/highest-gpa*
 
 ---
 [↑ Back to top](#exercise-profiling)
