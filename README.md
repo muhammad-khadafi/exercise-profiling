@@ -60,7 +60,8 @@ From those alternatives, I compare them to the original code in a similar profil
 ![highest-gpa](/docs/img/gui_post_testplan3.jpg)
 */highest-gpa*
 
-A: ...
+After optimization, there is a visible difference in performance testing results via JMeter.
+All three tests have seen a performance increase of over 80% while maintaining the same expected response.
 
 ### Attachments
 
