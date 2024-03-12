@@ -7,10 +7,8 @@ import com.advpro.profiling.tutorial.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * @author muhammad.khadafi
@@ -29,7 +27,7 @@ public class StudentService {
     }
 
     public Optional<Student> findStudentWithHighestGpa() {
-        return Optional.ofNullable(studentRepository.findAll().get(0));
+        return Optional.ofNullable(studentRepository.findFirstByOrderByGpaDesc());
     }
 
     public String joinStudentNames() {
