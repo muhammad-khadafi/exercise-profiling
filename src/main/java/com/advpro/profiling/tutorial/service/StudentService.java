@@ -40,7 +40,7 @@ public class StudentService {
         for (Student student : students) {
             toJoinStrings.add(student.getName());
         }
-        return "";
+        return toJoinStrings.toString();
     }
 }
 
